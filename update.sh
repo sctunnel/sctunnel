@@ -36,7 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/QuinStore/scpremium/main/Cdy/menu.zip
+    wget https://raw.githubusercontent.com/sctunnel/sctunnel/main/Cdy/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/sctunnel/sctunnel/main/Enc/encrypt" ; chmod +x /usr/bin/enc
     7z x -pEasyStore@86 menu.zip
     chmod +x menu/*
